@@ -1,26 +1,33 @@
-/*
- * React.js Starter Kit
- * Copyright (c) 2014 Konstantin Tarkus (@koistya), KriaSoft LLC.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
+/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 
-import './ContentPage.less';
-import React, { PropTypes } from 'react'; // eslint-disable-line no-unused-vars
+import React, { PropTypes } from 'react';
+import styles from './ContentPage.less';
+import withStyles from '../../decorators/withStyles';
 
+@withStyles(styles)
 class ContentPage {
 
   static propTypes = {
-    body: PropTypes.string.isRequired
+    path: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired,
+    title: PropTypes.string
+  };
+
+  static contextTypes = {
+    onSetTitle: PropTypes.func.isRequired
   };
 
   render() {
-    var { className, body, other } = this.props;
-
+    this.context.onSetTitle(this.props.title);
     return (
-      <div className={'ContentPage ' + className}
-        dangerouslySetInnerHTML={{__html: body}} {...other} />
+      <div className="ContentPage">
+        <div className="ContentPage-container">
+          {
+            this.props.path === '/' ? null : <h1>{this.props.title}</h1>
+          }
+          <div dangerouslySetInnerHTML={{__html: this.props.content || ''}} />
+        </div>
+      </div>
     );
   }
 
