@@ -1,23 +1,15 @@
-/*
- * React.js Starter Kit
- * Copyright (c) 2014 Konstantin Tarkus (@koistya), KriaSoft LLC.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
+/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 
 import 'babel/polyfill';
-
-import React from 'react/addons';
+import React from 'react';
 import FastClick from 'fastclick';
-import emptyFunction from 'react/lib/emptyFunction';
 import App from './components/App';
 import Dispatcher from './core/Dispatcher';
 import AppActions from './actions/AppActions';
 import ActionTypes from './constants/ActionTypes';
 
 let path = decodeURI(window.location.pathname);
-let setMetaTag = (name, content) => {
+let onSetMeta = (name, content) => {
   // Remove and create a new <meta /> tag in order to make it work
   // with bookmarks in Safari
   let elements = document.getElementsByTagName('meta');
@@ -36,18 +28,22 @@ function run() {
   // Render the top-level React component
   let props = {
     path: path,
-    onSetTitle: (title) => document.title = title,
-    onSetMeta: setMetaTag,
-    onPageNotFound: emptyFunction
+    context: {
+      onSetTitle: value => document.title = value,
+      onSetMeta
+    }
   };
   let element = React.createElement(App, props);
-  React.render(element, document.body);
+  React.render(element, document.getElementById('app'), () => {
+    let css = document.getElementById('css');
+    css.parentNode.removeChild(css);
+  });
 
   // Update `Application.path` prop when `window.location` is changed
-  Dispatcher.register((payload) => {
-    if (payload.action.actionType === ActionTypes.CHANGE_LOCATION) {
-      element = React.cloneElement(element, {path: payload.action.path});
-      React.render(element, document.body);
+  Dispatcher.register((action) => {
+    if (action.type === ActionTypes.CHANGE_LOCATION) {
+      element = React.cloneElement(element, {path: action.path});
+      React.render(element, document.getElementById('app'));
     }
   });
 }
