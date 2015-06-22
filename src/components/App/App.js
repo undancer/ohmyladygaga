@@ -15,7 +15,8 @@ import NotFoundPage from '../NotFoundPage';
 import CommentsListPage from '../CommentsListPage';
 import CommentInfoPage from '../CommentInfoPage';
 import NewsListPage from '../NewsListPage';
-
+import ChatListPage from '../ChatListPage';
+import ChatPage from '../ChatPage';
 const pages = { ProfilePage, NewsListPage, LoginPage, RegisterPage, NotFoundPage, CommentsListPage, CommentInfoPage };
 
 @withContext
@@ -60,8 +61,11 @@ class App {
         component = <NewsListPage />;
         break;
 
-      case '/register':
-        component = <RegisterPage />;
+      case '/chat':
+        component = <ChatListPage />;
+        break;
+      case '/chat/1':
+        component = <ChatPage />;
         break;
     }
 

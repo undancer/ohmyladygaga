@@ -103,12 +103,13 @@ class CommentInfoPage extends React.Component{
 
         </div>
         <div className="row">
-          <h4>网友评论</h4>
-          <hr/>
-          <CommentsListPage items={this.state.items}/>
+          <div className="col-xs-12">
+            <h4>网友评论</h4>
+            <hr/>
+          </div>
         </div>
+        <CommentsListPage items={this.state.items}/>
       </div>
-
     );
   }
 
