@@ -33,7 +33,7 @@ class NewsListPage extends React.Component {
   return (
     <div className="list-group">
       <a href="/event/1" className="list-group-item">
-        <div className="ro">
+        <div className="row">
           <img src="http://placehold.it/360x150" alt="" className="img-thumbnail"/>
         </div>
       </a>

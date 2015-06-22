@@ -16,16 +16,16 @@ class CommentsListPage extends React.Component {
   var createItem = function(itemText, index) {
     return (
       <a href="/events/1" className="list-group-item" key={index + itemText}>
-        <div className="row">
-          <div className="col-xs-8">
+        <div className="row orange-list-container">
+          <div className="col-xs-8 ">
             <h4 className="list-group-item-heading"> {itemText}</h4>
-            <p className="list-group-item-text">发布人:lizhi 日期<time> 2015.02.01</time></p>
+            <p className="list-group-item-text bottom-aligned-text">发布人:lizhi 日期<time> 2015.02.01</time></p>
           </div>
-          <div className="col-xs-4">
-            <button className="btn btn-warning btn-circle btn-lg">
+          <div className="col-xs-4 text-center">
+            <button className="btn btn-circle btn-lg">
               报名
             </button>
-            <p>已有 <span>30</span> 人报名</p>
+            <p>已有 <span className="orange">30</span> 人报名</p>
           </div>
         </div>
       </a>

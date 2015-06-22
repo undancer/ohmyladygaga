@@ -2,13 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0491527f-4b9d-4be4-bb8e-ac1257c9a320" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ChatListPage/ChatListPage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ChatPage/ChatPage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ChatListPage/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ChatPage/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App/App.js" afterPath="$PROJECT_DIR$/src/components/App/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/button_more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/button_recommend_change.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_creategroup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_creategroup_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_fcrecommend.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_friend%.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_group_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_microphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_plate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_search_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/icon_twways.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_dragon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_dragon_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_joe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_kiko.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_kiko_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_lili.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_lucy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_marry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_mike.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/photo_rose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/picture_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/picture_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/picture_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/public/images/picture_4.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/button_recommend_change.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_comment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_creategroup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_creategroup_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_fcrecommend.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_friend%.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_group.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_group_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_like.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_microphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_plate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_search_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon_twways.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_dragon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_dragon_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_joe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_kiko.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_kiko_s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_lili.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_lucy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_marry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_mike.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/photo_rose.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/picture_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/picture_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/picture_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/picture_4.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App/App.less" afterPath="$PROJECT_DIR$/src/components/App/App.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js" afterPath="$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.less" afterPath="$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.js" afterPath="$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.less" afterPath="$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NewsListPage/NewsPage.js" afterPath="$PROJECT_DIR$/src/components/NewsListPage/NewsPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.js" afterPath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.less" afterPath="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ohmyladygaga.iws" />
@@ -30,137 +100,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CommentInfoPage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommentInfoPage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.86725664">
+              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/App/App.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.75">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentInfoPage.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding>
-                <marker date="1434981376000" expanded="true" signature="440:924" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="488:622" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="633:800" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="812:909" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="1785:3274" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="1821:2333" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="1853:2318" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="1893:2301" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="1931:2131" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="1976:2110" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2146:2282" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2342:2575" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2374:2558" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2584:3064" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2619:3048" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2680:2851" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="2913:3028" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="3073:3208" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981376000" expanded="true" signature="3105:3193" placeholder="&lt;xml/&gt;" />
+                <marker date="1434989056000" expanded="true" signature="14:17" placeholder="{...}" />
+                <marker date="1434989056000" expanded="true" signature="264:265" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NewsListPage/NewsPage.js">
+      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1434981149000" expanded="true" signature="436:1053" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="516:1042" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="548:661" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="672:804" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="815:914" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="925:1027" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="1081:1354" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="1116:1302" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="1172:1291" placeholder="&lt;xml/&gt;" />
-                <marker date="1434981149000" expanded="true" signature="1841:1909" placeholder="&lt;xml/&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatListPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ChatListPage/ChatListPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ChatPage/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.9583335">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatPage.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/ChatPage/ChatPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6637168">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilePage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2083333">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsPage.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NewsListPage/NewsPage.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-25.0">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -212,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/components/NewsListPage/NewsPage.less" />
         <option value="$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.js" />
         <option value="$PROJECT_DIR$/src/components/NewsListPage/NewsPage.js" />
-        <option value="$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js" />
         <option value="$PROJECT_DIR$/src/components/ChatListPage/package.json" />
         <option value="$PROJECT_DIR$/src/components/ChatListPage/ChatListPage.js" />
         <option value="$PROJECT_DIR$/src/components/ChatPage/package.json" />
@@ -220,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/templates/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/ChatPage/ChatPage.js" />
+        <option value="$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js" />
       </list>
     </option>
   </component>
@@ -372,6 +349,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -416,7 +415,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NewsListPage" />
+              <option name="myItemId" value="CommentsListPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,29 +437,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ChatPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ohmyladygaga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ohmyladygaga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ChatListPage" />
+              <option name="myItemId" value="CommentInfoPage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,6 +477,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -514,7 +509,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ohmyladygaga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,6 +592,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/images" />
       <recent name="$PROJECT_DIR$/src/components/" />
       <recent name="$PROJECT_DIR$/src/components/ChatLIstPage" />
       <recent name="$PROJECT_DIR$/src/components/CommentsPage" />
@@ -671,31 +721,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33184856">
-          <caret line="320" column="11" selection-start-line="320" selection-start-column="11" selection-end-line="320" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react/lib/ReactCompositeComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33184856">
-          <caret line="766" column="33" selection-start-line="766" selection-start-column="33" selection-end-line="766" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/node_modules/serve-static/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="106" column="6" selection-start-line="106" selection-start-column="6" selection-end-line="106" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -818,17 +847,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CommentsListPage/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,20 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035377357">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4150944">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.25">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ContactPage/ContactPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -942,44 +945,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3504673">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39823008">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NewsListPage/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.090771556">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NewsListPage/NewsPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1434981149000" expanded="true" signature="436:1053" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="516:1042" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="548:661" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="672:804" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="815:914" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="925:1027" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="1081:1354" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="1116:1302" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="1172:1291" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981149000" expanded="true" signature="1841:1909" placeholder="&lt;xml/&gt;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,42 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022692889">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <marker date="1434981376000" expanded="true" signature="440:924" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="488:622" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="633:800" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="812:909" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="1785:3274" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="1821:2333" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="1853:2318" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="1893:2301" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="1931:2131" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="1976:2110" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2146:2282" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2342:2575" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2374:2558" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2584:3064" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2619:3048" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2680:2851" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="2913:3028" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="3073:3208" placeholder="&lt;xml/&gt;" />
-            <marker date="1434981376000" expanded="true" signature="3105:3193" placeholder="&lt;xml/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1051,20 +985,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ChatListPage/ChatListPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="40" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NewsListPage/NewsPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3318584">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1074,8 +1016,91 @@
         <state vertical-scroll-proportion="0.6637168">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22727273">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42056075">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36504424">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProfilePage/ProfilePage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64953274">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CommentsListPage/CommentsListPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9859813">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.0">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <marker date="1434989056000" expanded="true" signature="14:17" placeholder="{...}" />
+            <marker date="1434989056000" expanded="true" signature="264:265" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CommentInfoPage/CommentInfoPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86725664">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

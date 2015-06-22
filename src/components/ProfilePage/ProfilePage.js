@@ -3,6 +3,8 @@
 import React, { PropTypes } from 'react';
 import styles from './ProfilePage.less';
 
+import withStyles from '../../decorators/withStyles';
+@withStyles(styles)
 class ProfilePage {
 
   static propTypes = {
@@ -24,24 +26,24 @@ class ProfilePage {
     return (
       <div className="ProfilePage">
         <div className="container list-group">
-          <div className="row">
+          <div className="row list-group-item">
             <div className="col-xs-6 text-center">
-              <img src="http://placehold.it/75x75" alt="" className="img-circle img-thumbnail"/>
+              <img src="./images/photo_lili.png" alt="" className="img-circle img-thumbnail"/>
             </div>
             <div className="col-xs-6">
               <table className="table table-condensed">
                 <tbody>
                   <tr>
-                    <td>姓名: 李杰</td>
-                    <td>性别: 女</td>
+                    <td className="no-border-top">姓名: 李杰</td>
+                    <td className="no-border-top">性别: 女</td>
                   </tr>
                 <tr>
-                  <td>年龄: 31</td>
-                  <td>星座: 金牛座</td>
+                  <td className="no-border-top">年龄: 31</td>
+                  <td className="no-border-top">星座: 金牛座</td>
                 </tr>
                 <tr>
-                  <td>公司: 丰联广场</td>
-                  <td>职位: 专员</td>
+                  <td className="no-border-top">公司: 丰联广场</td>
+                  <td className="no-border-top">职位: 专员</td>
                 </tr>
                 </tbody>
               </table>
@@ -79,15 +81,39 @@ class ProfilePage {
           </div>
 
           <div className="row list-group-item">
-            <div className="col-xs-12">望京souho 最近招商通知</div>
-            <div className="col-xs-8">日期：20150521 <span>发表了话题</span></div>
-            <div className="col-xs-2">
+            <div className="col-xs-12"><h4>#望京souho# 最近招商通知</h4></div>
+            <div className="col-xs-6">日期：2015.05.21 <span>发表了话题</span></div>
+            <div className="col-xs-3 text-right">
               <p><i className="fa fa-heart-o"></i> 23</p>
             </div>
-            <div className="col-xs-2">
-              <p><i className="fa fa-comments-o"></i> 23</p>
+            <div className="col-xs-3 text-right">
+              <p><i className="fa fa-comments-o"></i> 45</p>
             </div>
           </div>
+
+          <div className="row list-group-item">
+            <div className="col-xs-12"><h4>大学生喜爱的就业行业</h4></div>
+            <div className="col-xs-6">日期：2015.05.21 <span>发表了文章</span></div>
+            <div className="col-xs-3 text-right">
+              <p><i className="fa fa-heart-o"></i> 23</p>
+            </div>
+            <div className="col-xs-3 text-right">
+              <p><i className="fa fa-comments-o"></i> 45</p>
+            </div>
+          </div>
+
+          <div className="row list-group-item">
+            <div className="col-xs-12"><h4>北京第三届xx行业交流会</h4></div>
+            <div className="col-xs-6">日期：2015.05.21 <span>发表了活动</span></div>
+            <div className="col-xs-3 text-right">
+              <p><i className="fa fa-heart-o"></i> 23</p>
+            </div>
+            <div className="col-xs-3 text-right">
+              <p><i className="fa fa-comments-o"></i> 45</p>
+            </div>
+          </div>
+
+
         </div>
       </div>
     );
