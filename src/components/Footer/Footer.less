@@ -3,14 +3,19 @@
 @import '../variables.less';
 
 .Footer {
-  background: #333;
+  //background: #333;
   color: #fff;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
 
   &-container {
     margin: 0 auto;
     padding: 20px 15px;
     max-width: @max-content-width;
     text-align: center;
+
   }
 
   &-text {

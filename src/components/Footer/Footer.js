@@ -13,7 +13,8 @@ class Footer {
     viewport: PropTypes.shape({
       width: PropTypes.number.isRequired,
       height: PropTypes.number.isRequired
-    }).isRequired
+    }).isRequired,
+    path: PropTypes.string.isRequired
   };
 
   render() {
@@ -24,7 +25,16 @@ class Footer {
     return (
       <div className="Footer">
         <div className="Footer-container">
-
+          {
+            this.props.path === '/publish' ? (
+              <a href="/">
+                <img src="//placehold.it/100x30"/>
+              </a>) : (
+              <a href="/publish">
+                 <img src="//placehold.it/100x30"/>
+              </a>
+            )
+          }
         </div>
       </div>
     );

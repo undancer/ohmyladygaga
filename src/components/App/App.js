@@ -17,6 +17,8 @@ import CommentInfoPage from '../CommentInfoPage';
 import NewsListPage from '../NewsListPage';
 import ChatListPage from '../ChatListPage';
 import ChatPage from '../ChatPage';
+import PublishPage from '../PublishPage';
+import Footer from '../Footer';
 const pages = { ProfilePage, NewsListPage, LoginPage, RegisterPage, NotFoundPage, CommentsListPage, CommentInfoPage };
 
 @withContext
@@ -65,7 +67,10 @@ class App {
         component = <ChatListPage />;
         break;
       case '/chat/1':
-        component = <ChatPage />;
+        component = <ChaPage />;
+        break;
+      case '/publish':
+        component = <PublishPage />;
         break;
     }
 
@@ -73,6 +78,7 @@ class App {
       <div>
         <Header />
         {component}
+        <Footer path={this.props.path}/>
       </div>
     ) : <NotFoundPage />;
   }
