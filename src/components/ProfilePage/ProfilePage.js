@@ -28,7 +28,7 @@ class ProfilePage {
         <div className="container list-group">
           <div className="row list-group-item">
             <div className="col-xs-6 text-center">
-              <img src="./images/photo_lili.png" alt="" className="img-circle img-thumbnail"/>
+              <img src="/images/photo_lili.png" alt="" className="img-circle img-thumbnail"/>
             </div>
             <div className="col-xs-6">
               <table className="table table-condensed">
