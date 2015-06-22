@@ -8,33 +8,41 @@
 
 
 import React, { PropTypes } from 'react'; // eslint-disable-line no-unused-vars
-import withStyles from '../../decorators/withStyles';
-import styles from './CommentsListPage.less';
-@withStyles(styles)
-class CommentsListPage extends React.Component {
+class NewsListPage extends React.Component {
   render() {
   var createItem = function(itemText, index) {
     return (
       <a href="/events/1" className="list-group-item" key={index + itemText}>
         <div className="row">
-          <div className="col-xs-8">
+          <div className="col-xs-12">
             <h4 className="list-group-item-heading"> {itemText}</h4>
+          </div>
+          <div className="col-xs-8">
             <p className="list-group-item-text">发布人:lizhi 日期<time> 2015.02.01</time></p>
           </div>
-          <div className="col-xs-4">
-            <button className="btn btn-warning btn-circle btn-lg">
-              报名
-            </button>
-            <p>已有 <span>30</span> 人报名</p>
+          <div className="col-xs-2">
+            <p><i className="fa fa-heart-o"></i> 23</p>
+          </div>
+          <div className="col-xs-2">
+            <p><i className="fa fa-comments-o"></i> 23</p>
           </div>
         </div>
       </a>
     );
   };
-  return <div className="list-group">{this.props.items.map(createItem)}</div>;
+  return (
+    <div className="list-group">
+      <a href="/event/1" className="list-group-item">
+        <div className="ro">
+          <img src="http://placehold.it/360x150" alt="" className="img-thumbnail"/>
+        </div>
+      </a>
+      {this.props.items.map(createItem)}
+    </div>
+  );
 }
 }
-class CommentsPage extends React.Component{
+class NewsPage extends React.Component{
 
   static propTypes = {
     items: PropTypes.array,
@@ -55,11 +63,11 @@ class CommentsPage extends React.Component{
     this.state = { items: props.items, text: props.text};
   }
   render() {
-    let title = '活动';
+    let title = '新鲜事';
     this.context.onSetTitle(title);
     return (
       <div>
-        <CommentsListPage items={this.state.items} />
+        <NewsListPage items={this.state.items} />
       </div>
     );
   }
@@ -67,4 +75,4 @@ class CommentsPage extends React.Component{
 }
 
 
-export default CommentsPage;
+export default NewsPage;

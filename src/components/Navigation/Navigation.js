@@ -16,10 +16,10 @@ class Navigation {
   render() {
     return (
       <div className={classNames(this.props.className, 'Navigation')} role="navigation">
-        <a className="Navigation-link" href="/comments" onClick={Link.handleClick}>新鲜事</a>
-        <a className="Navigation-link" href="/comments" onClick={Link.handleClick}>交流</a>
-        <a className="Navigation-link" href="/comments" onClick={Link.handleClick}>活动</a>
-        <a className="Navigation-link" href="/comments" onClick={Link.handleClick}>个人主页</a>
+        <a className="Navigation-link" href="/news" onClick={Link.handleClick}>新鲜事</a>
+        <a className="Navigation-link" href="/chat" onClick={Link.handleClick}>交流</a>
+        <a className="Navigation-link" href="/events" onClick={Link.handleClick}>活动</a>
+        <a className="Navigation-link" href="/profile" onClick={Link.handleClick}>个人主页</a>
       </div>
     );
   }

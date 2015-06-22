@@ -14,7 +14,7 @@ class Header {
       <div className="Header">
         <div className="Header-container">
           <a className="Header-brand" href="/" onClick={Link.handleClick}>
-            <span className="Header-brandTxt">Your Company</span>
+            <span className="Header-brandTxt"></span>
           </a>
           <Navigation className="Header-nav" />
         </div>

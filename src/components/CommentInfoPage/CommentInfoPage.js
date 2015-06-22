@@ -13,17 +13,20 @@ class CommentsListPage extends React.Component {
   render() {
     var createItem = function(itemText) {
       return (
-      <div className="media">
-        <div className="media-left">
-          <a>
-            <img className="media-object" src="http://placehold.it/50x50" alt="userPhoto" />
-          </a>
+        <div className="row list-group-item">
+          <div className="col-xs-2">
+            <img className="img-circle" src="http://placehold.it/50x50" alt="userPhoto" />
+          </div>
+          <div className="col-xs-8">
+            <h4 className="list-group-item-heading">用户1</h4>
+            <p className="list-group-item-text">{itemText}</p>
+          </div>
+
+          <div className="col-xs-2">
+            <p>凌晨</p>
+            <a href="#">回复他</a>
+          </div>
         </div>
-        <div className="media-body">
-          <h4 className="media-heading">用户1</h4>
-          <p> {itemText}</p>
-        </div>
-      </div>
       );
     };
     return <div className="list-group">{this.props.items.map(createItem)}</div>;
@@ -64,41 +67,45 @@ class CommentInfoPage extends React.Component{
     return (
       <div className="container">
         <div className="row">
-          <div className="media">
-            <div className="media-left">
-              <a>
-                <img className="media-object" src="http://placehold.it/50x50" alt="userPhoto" />
-              </a>
-            </div>
-            <div className="media-body">
-              <h4 className="media-heading">用户1</h4>
-              <p>发布于 2015</p>
-            </div>
-
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-6 col-md-4">
-            <h3>xx行业交流会</h3>
-            <div className="thumbnail">
-              <img src="http://placehold.it/50x50" />
-                <div className="caption">
-                  <p>地点</p>
-                  <p>联系人</p>
-                </div>
+          <div className="col-xs-12">
+            <div className="media">
+              <div className="media-left">
+                <a>
+                  <img className="media-object img-circle" src="http://placehold.it/50x50" alt="userPhoto" />
+                </a>
+              </div>
+              <div className="media-body">
+                <h4 className="media-heading">用户1</h4>
+                <p>发布于 2015</p>
               </div>
             </div>
           </div>
+        </div>
         <div className="row">
-          <form onSubmit={this.handleSubmit.bind(this)}>
-            <textarea className="form-control" rows="3" onChange={this.onChange.bind(this)} value={this.state.text} />
-            <button  className="btn btn-primary">{'发送'}</button>
-          </form>
+          <div className="col-xs-12">
+            <h5>xx行业交流会</h5>
+            <img src="http://placehold.it/50x50" className=""/>
+            <p>地点</p>
+            <p>联系人</p>
+            </div>
+          </div>
+        <div className="row">
+
+            <form onSubmit={this.handleSubmit.bind(this)}>
+              <div className="col-xs-12">
+                <textarea className="form-control" rows="3" onChange={this.onChange.bind(this)} value={this.state.text} />
+              </div>
+              <div className="col-xs-9"></div>
+              <div className="col-xs-3">
+                <button className="btn btn-primary">{'发送'}</button>
+              </div>
+            </form>
+
         </div>
         <div className="row">
           <h4>网友评论</h4>
           <hr/>
-          <CommentsListPage items={this.state.items} />
+          <CommentsListPage items={this.state.items}/>
         </div>
       </div>
 
