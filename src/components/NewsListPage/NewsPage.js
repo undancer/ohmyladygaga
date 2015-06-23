@@ -8,11 +8,15 @@
 
 
 import React, { PropTypes } from 'react'; // eslint-disable-line no-unused-vars
+import styles from './NewsPage.less';
+
+import withStyles from '../../decorators/withStyles';
+@withStyles(styles)
 class NewsListPage extends React.Component {
   render() {
   var createItem = function(itemText, index) {
     return (
-      <a href="/events/1" className="list-group-item" key={index + itemText}>
+      <a href="/news/1" className="list-group-item" key={index + itemText}>
         <div className="row">
           <div className="col-xs-12">
             <h4 className="list-group-item-heading"> {itemText}</h4>
@@ -33,8 +37,11 @@ class NewsListPage extends React.Component {
   return (
     <div className="list-group">
       <a href="/event/1" className="list-group-item">
-        <div className="row">
-          <img src="http://placehold.it/360x150" alt="" className="img-thumbnail"/>
+        <div className="row object">
+          <img src="/images/picture_2.png" alt="" className="img-thumbnail object-thumbnail"/>
+          <div className="object-caption text—center">
+           <h3>佛罗里达的致富经</h3>
+          </div>
         </div>
       </a>
       {this.props.items.map(createItem)}

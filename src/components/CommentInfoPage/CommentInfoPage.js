@@ -20,12 +20,12 @@ class CommentsListPage extends React.Component {
           <div className="col-xs-2">
             <img className="img-circle" src="/images/photo_marry.png" alt="userPhoto" />
           </div>
-          <div className="col-xs-8">
+          <div className="col-xs-7">
             <h4 className="list-group-item-heading">Marry</h4>
             <p className="list-group-item-text">{itemText}</p>
           </div>
 
-          <div className="col-xs-2">
+          <div className="col-xs-3 text-right">
             <span>凌晨 0:13</span>
             <a href="#"><p><span>回复他</span></p></a>
           </div>

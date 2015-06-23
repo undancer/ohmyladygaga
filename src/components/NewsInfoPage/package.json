@@ -1,0 +1,6 @@
+{
+  "name": "NewsInfoPage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./NewsInfoPage.js"
+}

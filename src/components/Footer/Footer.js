@@ -31,7 +31,7 @@ class Footer {
                 <img src="//placehold.it/100x30"/>
               </a>) : (
               <a href="/publish">
-                 <img src="//placehold.it/100x30"/>
+                 <img src="/images/button_create.png"/>
               </a>
             )
           }

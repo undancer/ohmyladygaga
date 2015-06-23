@@ -13,14 +13,19 @@ class Navigation {
     className: PropTypes.string
   };
 
+
+
   render() {
     return (
-      <div className={classNames(this.props.className, 'Navigation')} role="navigation">
-        <a className="Navigation-link" href="/news" onClick={Link.handleClick}>新鲜事</a>
-        <a className="Navigation-link" href="/chat" onClick={Link.handleClick}>交流</a>
-        <a className="Navigation-link" href="/events" onClick={Link.handleClick}>活动</a>
-        <a className="Navigation-link" href="/profile" onClick={Link.handleClick}>个人主页</a>
-      </div>
+      <ul className="nav navbar-nav">
+        <li><a className="" href="/news" onClick={Link.handleClick}>新鲜事</a></li>
+        <li><a href="/chat">交流</a></li>
+        <li><a className="logo" href="/" onClick={Link.handleClick}>
+          <img alt="Brand" src="/images/logo.png"/>
+          </a></li>
+          <li><a href="/events" onClick={Link.handleClick}>活动</a></li>
+          <li><a href="/profile" onClick={Link.handleClick}>个人主页</a></li>
+        </ul>
     );
   }
 

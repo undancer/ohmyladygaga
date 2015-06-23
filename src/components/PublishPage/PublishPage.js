@@ -1,7 +1,10 @@
 /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 
 import React, { PropTypes } from 'react';
+import styles from './PublishPage.less';
 
+import withStyles from '../../decorators/withStyles';
+@withStyles(styles)
 class PublishPage {
 
   static propTypes = {
@@ -16,18 +19,37 @@ class PublishPage {
   };
 
   static defaultProps = {
-    title: '个人主页',
+    title: '发布',
     maxLines: 1
   };
 
   render() {
     this.context.onSetTitle(this.props.title);
     return (
-      <div className="TextBox">
-        {this.props.maxLines > 1 ?
-          <textarea {...this.props} className="TextBox-input" ref="input" key="input" rows={this.props.maxLines} /> :
-          <input {...this.props} className="TextBox-input" ref="input" key="input" />}
+      <div className="container Publish-container">
+        <div className="row">
+          <a href="">
+            <div className="col-xs-12 text-center">
+              <img src="/images/button_createactivity.png" alt=""/>
+            </div>
+          </a>
+        </div>
+        <div className="row">
+          <a href="">
+            <div className="col-xs-12 text-center">
+              <img src="/images/button_createtopic.png" alt=""/>
+            </div>
+          </a>
+        </div>
+        <div className="row">
+          <a href="">
+            <div className="col-xs-12 text-center">
+              <img src="/images/button_createpassage.png" alt=""/>
+            </div>
+          </a>
+        </div>
       </div>
+
     );
   }
 

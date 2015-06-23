@@ -18,6 +18,7 @@ import NewsListPage from '../NewsListPage';
 import ChatListPage from '../ChatListPage';
 import ChatPage from '../ChatPage';
 import PublishPage from '../PublishPage';
+import NewsInfoPage from '../NewsInfoPage';
 import Footer from '../Footer';
 const pages = { ProfilePage, NewsListPage, LoginPage, RegisterPage, NotFoundPage, CommentsListPage, CommentInfoPage };
 
@@ -62,7 +63,9 @@ class App {
       case '/news':
         component = <NewsListPage />;
         break;
-
+      case '/news/1':
+        component = <NewsInfoPage />;
+        break;
       case '/chat':
         component = <ChatListPage />;
         break;

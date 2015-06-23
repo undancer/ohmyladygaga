@@ -11,14 +11,12 @@ class Header {
 
   render() {
     return (
-      <div className="Header">
-        <div className="Header-container">
-          <a className="Header-brand" href="/" onClick={Link.handleClick}>
-            <span className="Header-brandTxt"></span>
-          </a>
+      <nav className="navbar navbar-default">
+        <div className="container container-fluid">
           <Navigation className="Header-nav" />
-        </div>
-      </div>
+
+          </div>
+        </nav>
     );
   }
 
