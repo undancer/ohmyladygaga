@@ -13,12 +13,10 @@ class Navigation {
     className: PropTypes.string
   };
 
-
-
   render() {
     return (
       <ul className="nav navbar-nav">
-        <li><a className="" href="/news" onClick={Link.handleClick}>新鲜事</a></li>
+        <li><a href="/news" onClick={Link.handleClick}>新鲜事</a></li>
         <li><a href="/chat">交流</a></li>
         <li><a className="logo" href="/" onClick={Link.handleClick}>
           <img alt="Brand" src="/images/logo.png"/>

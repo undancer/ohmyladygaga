@@ -17,18 +17,15 @@ class NewsListPage extends React.Component {
   var createItem = function(itemText, index) {
     return (
       <a href="/news/1" className="list-group-item" key={index + itemText}>
-        <div className="row">
+        <div className="row orange-list-container">
           <div className="col-xs-12">
             <h4 className="list-group-item-heading"> {itemText}</h4>
           </div>
-          <div className="col-xs-8">
+          <div className="col-xs-7">
             <p className="list-group-item-text">发布人:lizhi 日期<time> 2015.02.01</time></p>
           </div>
-          <div className="col-xs-2">
-            <p><i className="fa fa-heart-o"></i> 23</p>
-          </div>
-          <div className="col-xs-2">
-            <p><i className="fa fa-comments-o"></i> 23</p>
+          <div className="col-xs-5 text-right">
+            <p><i className="fa fa-heart-o"></i> 23  <i className="fa fa-comments-o"></i> 23</p>
           </div>
         </div>
       </a>

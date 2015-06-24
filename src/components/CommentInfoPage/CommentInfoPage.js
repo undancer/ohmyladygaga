@@ -54,7 +54,6 @@ class CommentInfoPage extends React.Component{
     this.state = { items: props.items, text: props.text};
   }
   onChange(e) {
-    console.log(e.target.value);
     this.setState({text: e.target.value});
   }
   handleSubmit(e) {

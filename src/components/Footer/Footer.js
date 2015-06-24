@@ -28,7 +28,6 @@ class Footer {
           {
             this.props.path === '/publish' ? (
               <a href="/">
-                <img src="//placehold.it/100x30"/>
               </a>) : (
               <a href="/publish">
                  <img src="/images/button_create.png"/>

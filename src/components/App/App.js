@@ -27,7 +27,8 @@ const pages = { ProfilePage, NewsListPage, LoginPage, RegisterPage, NotFoundPage
 class App {
 
   static propTypes = {
-    path: PropTypes.string.isRequired
+    path: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired
   };
 
   componentDidMount() {
@@ -76,10 +77,11 @@ class App {
         component = <PublishPage />;
         break;
     }
-
+    console.log(this.props)
     return component ? (
+
       <div>
-        <Header />
+        <Header/>
         {component}
         <Footer path={this.props.path}/>
       </div>
