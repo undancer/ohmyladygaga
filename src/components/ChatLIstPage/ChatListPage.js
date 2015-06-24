@@ -39,9 +39,9 @@ class GroupListPage extends React.Component {
 class ChatPages extends React.Component{
 
   static propTypes = {
-    groups: PropTypes.array,
-    users: PropTypes.array,
-    text: PropTypes.string
+    groups: PropTypes.array.isRequired,
+    users: PropTypes.array.isRequired,
+    text: PropTypes.string.isRequired
   };
 
   static contextTypes = {
@@ -50,7 +50,7 @@ class ChatPages extends React.Component{
 
   static defaultProps = {
     groups: ['宝源国际购物中心招商', '望京soho招商'],
-    users: ['yonghu1','yonghu2']
+    users: ['yonghu1', 'yonghu2']
   };
 
   constructor(props) {

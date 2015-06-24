@@ -3,12 +3,11 @@
 import React from 'react';
 import styles from './Header.less';
 import withStyles from '../../decorators/withStyles';
-import Link from '../../utils/Link';
 import Navigation from '../Navigation';
 import AppActions from '../../actions/AppActions';
+import withContext from '../../decorators/withContext';
 @withStyles(styles)
 class Header {
-
   onChange(e) {
     AppActions.navigateTo(window.location.history(-1));
   }
@@ -21,7 +20,7 @@ class Header {
         <a className="Header-brand" href="/" onClick={this.onChange}>
           <i className="fa fa-chevron-left"></i>
         </a>
-        <h3>{this.props}</h3>
+        <h3>{this.state}</h3>
       </div>
       <nav className="navbar navbar-default">
         <div className="container container-fluid">

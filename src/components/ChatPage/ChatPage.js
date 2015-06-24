@@ -9,7 +9,7 @@
 
 import React, { PropTypes } from 'react'; // eslint-disable-line no-unused-vars
 import Firebase from 'firebase';
-var firebaseRef = new Firebase("https://reactchat-satococoa.firebaseio.com/");
+//var firebaseRef = new Firebase("https://reactchat-satococoa.firebaseio.com/");
 
 //class CommentBox extends React.Component{
 //  static propTypes = {
