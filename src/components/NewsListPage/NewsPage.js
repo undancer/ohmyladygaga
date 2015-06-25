@@ -25,7 +25,7 @@ class NewsListPage extends React.Component {
             <p className="list-group-item-text">发布人:lizhi 日期<time> 2015.02.01</time></p>
           </div>
           <div className="col-xs-5 text-right">
-            <p><i className="fa fa-heart-o"></i> 23  <i className="fa fa-comments-o"></i> 23</p>
+            <p><i className="fa fa-heart-o"></i> 23 <i className="fa fa-comments-o"></i> 23</p>
           </div>
         </div>
       </a>

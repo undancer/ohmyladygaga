@@ -167,9 +167,7 @@ gulp.task('sync', ['serve'], cb => {
 // Deploy via Git
 gulp.task('deploy', cb => {
   const push = require('git-push');
-  const remote = argv.production ?
-    'https://github.com/{user}/{repo}.git' :
-    'https://github.com/{user}/{repo}-test.git';
+  const remote = 'https://github.com/undancer/ohmyladygaga.git';
   push('./build', remote, cb);
 });
 

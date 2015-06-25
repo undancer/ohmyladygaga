@@ -5,10 +5,9 @@ import styles from './Header.less';
 import withStyles from '../../decorators/withStyles';
 import Navigation from '../Navigation';
 import AppActions from '../../actions/AppActions';
-import withContext from '../../decorators/withContext';
 @withStyles(styles)
 class Header {
-  onChange(e) {
+  onChange() {
     AppActions.navigateTo(window.location.history(-1));
   }
 

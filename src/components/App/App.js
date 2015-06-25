@@ -7,8 +7,6 @@ import withStyles from '../../decorators/withStyles';
 import AppActions from '../../actions/AppActions';
 import Header from '../Header';
 import ProfilePage from '../ProfilePage';
-import LoginPage from '../LoginPage';
-import RegisterPage from '../RegisterPage';
 import NotFoundPage from '../NotFoundPage';
 import CommentsListPage from '../CommentsListPage';
 import CommentInfoPage from '../CommentInfoPage';
@@ -17,7 +15,6 @@ import ChatListPage from '../ChatListPage';
 import PublishPage from '../PublishPage';
 import NewsInfoPage from '../NewsInfoPage';
 import Footer from '../Footer';
-const pages = { ProfilePage, NewsListPage, LoginPage, RegisterPage, NotFoundPage, CommentsListPage, CommentInfoPage };
 
 @withContext
 @withStyles(styles)
@@ -66,14 +63,10 @@ class App {
       case '/chat':
         component = <ChatListPage />;
         break;
-      case '/chat/1':
-        component = <ChaPage />;
-        break;
       case '/publish':
         component = <PublishPage />;
         break;
     }
-    console.log(this.props)
     return component ? (
       <div>
         <Header/>
