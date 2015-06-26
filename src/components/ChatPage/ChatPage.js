@@ -8,108 +8,86 @@
 
 
 import React, { PropTypes } from 'react'; // eslint-disable-line no-unused-vars
-import Firebase from 'firebase';
-//var firebaseRef = new Firebase("https://reactchat-satococoa.firebaseio.com/");
+import withStyles from '../../decorators/withStyles';
+import styles from './ChatPage.less';
+@withStyles(styles)
 
-//class CommentBox extends React.Component{
-//  static propTypes = {
-//    data: PropTypes.array
-//  };
-//
-//  static contextTypes = {
-//    onSetTitle: PropTypes.func.isRequired
-//  };
-//
-//  static defaultProps = {
-//    data: []
-//  };
-//
-//  componentDidMount() {
-//    this.fetchComment();
-//  }
-//  fetchComment() {
-//    firebaseRef.child('comments').on('child_added', function(snapshot) {
-//      comment = snapshot.val();
-//      comment.id = snapshot.key();
-//      data = this.state.data;
-//      data.push(comment);
-//      this.setState({data: data});
-//    }.bind(this));
-//  }
-//  postComment(comment) {
-//    firebaseRef.child('comments').push(comment);
-//  }
-//  render() {
-//    let title = '最近联系人';
-//    this.context.onSetTitle(title);
-//    return (
-//      <div className="commentBox">
-//        <CommentForm commentHandler={this.postComment} />
-//        <CommentList data={this.state.data} />
-//      </div>
-//    );
-//  }
-//};
-//
-//var Comment = React.createClass({
-//  render: function() {
-//    return (
-//      <li className="commentList__comment">
-//        <div className="commentList__name">
-//          {this.props.name}
-//        </div>
-//        <div className="commentList__body">
-//          {this.props.children}
-//        </div>
-//      </li>
-//    );
-//  }
-//});
-//
-//var CommentList = React.createClass({
-//  render: function() {
-//    var comments = this.props.data.map(function(comment) {
-//      return (
-//        <Comment key={comment.id} name={comment.name}>
-//          {comment.text}
-//        </Comment>
-//      );
-//    });
-//    return (
-//      <ul className="commentList">
-//        {comments.reverse()}
-//      </ul>
-//    );
-//  }
-//});
-//
-//var CommentForm = React.createClass({
-//  handleSubmit: function(e) {
-//    e.preventDefault();
-//    nameElem = React.findDOMNode(this.refs.name);
-//    commentElem = React.findDOMNode(this.refs.comment);
-//    comment = {
-//      name: nameElem.value.trim(),
-//      text: commentElem.value.trim()
-//    };
-//    commentElem.value = '';
-//    this.props.commentHandler(comment);
-//  },
-//  render: function() {
-//    return (
-//      <form className="commentForm" onSubmit={this.handleSubmit}>
-//        <div className="commentForm__name">
-//          <input type="text" placeholder="Your name..." ref="name" />
-//        </div>
-//        <div className="commentForm__body">
-//          <input type="text" placeholder="Comment here..." ref="comment" />
-//        </div>
-//        <div className="commentForm__submit">
-//          <input type="submit" value="Submit" />
-//        </div>
-//      </form>
-//    );
-//  }
-//});
-//
-//export default CommentBox;
+class ChatPage extends React.Component{
+
+  static propTypes = {
+    text: PropTypes.string.isRequired
+  };
+
+  static contextTypes = {
+    onSetTitle: PropTypes.func.isRequired
+  };
+
+  static defaultProps = {
+    text: ''
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = { text: props.text};
+  }
+
+  onChange(e) {
+    this.setState({text: e.target.value});
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    this.setState({text: ''});
+  }
+
+  render() {
+    let title = '聊天';
+    this.context.onSetTitle(title);
+    return (
+    <div id="device">
+      <div className="chat">
+        <div className="message">
+          <img src="http://api.randomuser.me/portraits/med/men/66.jpg" />
+          <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium sapien, et gravida metus.</p></div>
+        </div>
+        <div className="message">
+          <img src="http://api.randomuser.me/portraits/med/men/66.jpg" />
+          <div><p>Aliquam gravida semper pharetra.</p></div>
+        </div>
+        <div className="message me">
+          <img src="http://api.randomuser.me/portraits/med/women/36.jpg" />
+          <div><p>
+            Curabitur congue lorem quis dolor blandit hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Vivamus bibendum efficitur tortor, non porttitor magna imperdiet in.
+          </p></div>
+        </div>
+        <div className="message me">
+          <img src="http://api.randomuser.me/portraits/med/women/36.jpg" />
+          <div><p>Curabitur feugiat libero sed lacinia sollicitudin.</p></div>
+        </div>
+        <div className="message me">
+          <img src="http://api.randomuser.me/portraits/med/women/36.jpg" />
+          <div><p>Cras mollis nisl ac velit euismod ultrices.</p></div>
+        </div>
+        <div className="message">
+          <img src="http://api.randomuser.me/portraits/med/men/66.jpg" />
+          <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium sapien, et gravida metus.</p></div>
+        </div>
+        <div className="message">
+          <img src="http://api.randomuser.me/portraits/med/men/66.jpg" />
+          <div><p>Aliquam gravida semper pharetra.</p></div>
+        </div>
+      </div>
+      <form onSubmit={this.handleSubmit.bind(this)}>
+      <div className="input-area">
+        <div className="input-wrapper">
+          <input type="text" onChange={this.onChange.bind(this)} value={this.state.text} />
+          </div>
+          </div>
+        </form>
+        </div>
+    );
+  }
+}
+
+export default ChatPage;

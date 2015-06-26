@@ -19,7 +19,7 @@ class Header {
         <a className="Header-brand" href="/" onClick={this.onChange}>
           <i className="fa fa-chevron-left"></i>
         </a>
-        <h3>{this.state}</h3>
+        <h3>方橙社交</h3>
       </div>
       <nav className="navbar navbar-default">
         <div className="container container-fluid">

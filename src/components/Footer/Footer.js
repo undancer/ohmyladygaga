@@ -26,7 +26,7 @@ class Footer {
       <div className="Footer">
         <div className="Footer-container">
           {
-            this.props.path === '/publish' ? (
+            (this.props.path === '/publish' || this.props.path === '/chat/1') ? (
               <a href="/">
               </a>) : (
               <a href="/publish">

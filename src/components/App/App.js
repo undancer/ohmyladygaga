@@ -12,6 +12,7 @@ import CommentsListPage from '../CommentsListPage';
 import CommentInfoPage from '../CommentInfoPage';
 import NewsListPage from '../NewsListPage';
 import ChatListPage from '../ChatListPage';
+import ChatPage from '../ChatPage';
 import PublishPage from '../PublishPage';
 import NewsInfoPage from '../NewsInfoPage';
 import Footer from '../Footer';
@@ -62,6 +63,9 @@ class App {
         break;
       case '/chat':
         component = <ChatListPage />;
+        break;
+      case '/chat/1':
+        component = <ChatPage />;
         break;
       case '/publish':
         component = <PublishPage />;
