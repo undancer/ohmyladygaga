@@ -12,23 +12,50 @@ import withStyles from '../../decorators/withStyles';
 import styles from './ChatPage.less';
 @withStyles(styles)
 
+
+class ChatContainer extends React.Component {
+  render() {
+    var createItem = function(itemText) {
+      return (
+        <div className="message me">
+          <img src="http://api.randomuser.me/portraits/med/women/36.jpg" />
+          <div><p>{itemText}</p></div>
+        </div>
+      );
+    };
+    return <div>{this.props.items.map(createItem)}</div>;
+  }
+}
 class ChatPage extends React.Component{
 
   static propTypes = {
-    text: PropTypes.string.isRequired
+    items: PropTypes.array.isRequired,
+    text: PropTypes.string
   };
-
   static contextTypes = {
     onSetTitle: PropTypes.func.isRequired
   };
-
   static defaultProps = {
+    items: [],
     text: ''
   };
 
+  componentWillUpdate() {
+    var node = React.findDOMNode(this);
+    this.shouldScrollBottom = node.scrollTop + node.offsetHeight === node.scrollHeight;
+  }
+
+  componentDidUpdate() {
+    if (this.shouldScrollBottom) {
+      var node = React.findDOMNode(this);
+      console.log(node);
+      node.scrollTop = node.scrollHeight
+    }
+  }
+
   constructor(props) {
     super(props);
-    this.state = { text: props.text};
+    this.state = { items: props.items, text: props.text};
   }
 
   onChange(e) {
@@ -37,7 +64,9 @@ class ChatPage extends React.Component{
 
   handleSubmit(e) {
     e.preventDefault();
-    this.setState({text: ''});
+    var nextItems = this.state.items.concat([this.state.text]);
+    var nextText = '';
+    this.setState({items: nextItems, text: nextText});
   }
 
   render() {
@@ -77,6 +106,7 @@ class ChatPage extends React.Component{
           <img src="http://api.randomuser.me/portraits/med/men/66.jpg" />
           <div><p>Aliquam gravida semper pharetra.</p></div>
         </div>
+        <ChatContainer items={this.state.items}/>
       </div>
       <form onSubmit={this.handleSubmit.bind(this)}>
       <div className="input-area">
